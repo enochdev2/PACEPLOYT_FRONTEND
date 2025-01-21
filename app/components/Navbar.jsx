@@ -31,13 +31,13 @@ const Navbar = () => {
     return (
         <>
             {/* Nav For Medium/Laptop screens */}
-            <nav className={`duration-1000 ${isSticky ? "bg-white shadow-md lg:py-5" : "bg-transparent lg:py-4"}  z-20  lg:px-10 hidden sticky top-0  lg:flex justify-between items-center`}>
+            <nav className={`duration-1000 ${isSticky ? "bg-[#e4cced] shadow-md lg:py-5" : "bg-transparent lg:py-4"}  z-20  lg:px-10 hidden sticky top-0  lg:flex justify-between items-center`}>
                 <ul className='flex items-center gap-x-20'>
                     <li className='flex justify-center items-center'>
                         <Link href={"/"}>
                             <Image src={Logos} width={80} alt='Pave Logo' />
                         </Link>
-                       <p className='text-purple-900 font-extrabold ml-3 text-2xl'> PACEPLOYT</p> 
+                       <p className='text-purple-900 font-extrabold ml-3 text-3xl'> PAVE</p> 
                     </li>
                     <ul className='flex gap-x-5 relative'>
                         <li className=''>

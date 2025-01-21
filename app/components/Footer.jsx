@@ -37,7 +37,7 @@ const Footer = ({ fadeUp }) => {
                         <Link href={"/"}>
                             <Image src={Logos} width={80} alt='PACEPLOYT Logo' />
                         </Link>
-                       <p className='text-purple-900 font-extrabold ml-3 text-2xl'> PACEPLOYT</p> 
+                       <p className='text-purple-900 font-extrabold ml-3 text-2xl'> PAVE</p> 
                     </li>
                         <li className='mx-auto '>
                             <Image src={compliance} width={100} alt='Compliance Logo' />
