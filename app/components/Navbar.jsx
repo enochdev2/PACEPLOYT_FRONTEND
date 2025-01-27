@@ -35,9 +35,9 @@ const Navbar = () => {
                 <ul className='flex items-center gap-x-20'>
                     <li className='flex justify-center items-center'>
                         <Link href={"/"}>
-                            <Image src={Logos} width={80} alt='Pave Logo' />
+                            <Image src={Logos} width={45} alt='Pave Logo' />
                         </Link>
-                       <p className='text-purple-900 font-extrabold ml-3 text-3xl'> PAVE</p> 
+                       <p className='text-purple-900 font-extrabold ml-3 text-xl'> PAVE</p> 
                     </li>
                     <ul className='flex gap-x-5 relative'>
                         <li className=''>

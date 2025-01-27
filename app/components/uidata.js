@@ -18,7 +18,7 @@ import safeLock from "../../public/images/safelock-icon.png"
 import targetIcon from "../../public/images/targets-icon.png"
 import flexNaira from "../../public/images/flex-naira-icon.png"
 import flexDollar from "../../public/images/flex-dollar-icon.png"
-import logo from "../../public/images/piggyvest-logo.0b78a8fa.svg"
+import logo from "../../public/images/pave.jpg"
 import thumb from "../../public/images/thumb.inv68202cdd88.jpg"
 import thumb1 from "../../public/images/thumb.inv470f16e718.png"
 import thumb2 from "../../public/images/thumb.inv88c81f074f.jpg"
@@ -184,7 +184,7 @@ export const saveNavs = [
 export const dashboardNavs = [
     {
         left: <svg stroke="currentColor" fill="none" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" className="text-white w-6 h-6 cursor-pointer" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>,
-        right: <Image alt="logo" src={logo} width={130} quality={100} />
+        right: <Image alt="logo" src={logo} width={70} quality={100} />
     },
     {
         left: <><path d="M9 22H5C4.73478 22 4.48043 21.8946 4.29289 21.7071C4.10536 21.5196 4 21.2652 4 21V11L12 3L20 11V21C20 21.2652 19.8946 21.5196 19.7071 21.7071C19.5196 21.8946 19.2652 22 19 22H15C14.7348 22 14.4804 21.8946 14.2929 21.7071C14.1054 21.5196 14 21.2652 14 21V17C14 16.7348 13.8946 16.4804 13.7071 16.2929C13.5196 16.1054 13.2652 16 13 16H11C10.7348 16 10.4804 16.1054 10.2929 16.2929C10.1054 16.4804 10 16.7348 10 17V21C10 21.2652 9.89464 21.5196 9.70711 21.7071C9.51957 21.8946 9.26522 22 9 22ZM12 13C12.5304 13 13.0391 12.7893 13.4142 12.4142C13.7893 12.0391 14 11.5304 14 11C14 10.4696 13.7893 9.96086 13.4142 9.58579C13.0391 9.21071 12.5304 9 12 9C11.4696 9 10.9609 9.21071 10.5858 9.58579C10.2107 9.96086 10 10.4696 10 11C10 11.5304 10.2107 12.0391 10.5858 12.4142C10.9609 12.7893 11.4696 13 12 13Z"></path><path d="M12.0101 4.42L3.71007 12.72C3.61749 12.8132 3.50745 12.8873 3.38624 12.938C3.26502 12.9888 3.135 13.0151 3.00361 13.0156C2.87221 13.016 2.74202 12.9906 2.62044 12.9407C2.49887 12.8909 2.38831 12.8176 2.29507 12.725C2.20184 12.6324 2.12775 12.5224 2.07703 12.4012C2.02632 12.2799 1.99998 12.1499 1.99952 12.0185C1.99905 11.8871 2.02447 11.7569 2.07433 11.6354C2.12418 11.5138 2.19749 11.4032 2.29007 11.31L11.3101 2.29C11.4974 2.10375 11.7509 1.99921 12.0151 1.99921C12.2793 1.99921 12.5327 2.10375 12.7201 2.29L21.7101 11.31C21.8971 11.4983 22.0016 11.7532 22.0006 12.0185C21.9997 12.2839 21.8934 12.538 21.7051 12.725C21.5168 12.912 21.2619 13.0165 20.9965 13.0156C20.7312 13.0146 20.4771 12.9083 20.2901 12.72L12.0101 4.42Z" ></path></>,
