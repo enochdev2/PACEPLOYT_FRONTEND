@@ -9,7 +9,7 @@ import myInvestments from "../public/images/myInvestments.avif";
 import womanPicture from "../public/images/pexels-ketut-subiyanto-4350099.avif";
 import piggybank from "../public/images/piggybank.avif";
 import securityLock from "../public/images/securitylock.svg";
-import stories_phone from '../public/images/stories_phones.jpg';
+// import stories_phone from '../public/images/stories_phones.jpg';
 
 // Components Imports
 import { motion } from "framer-motion";
@@ -195,7 +195,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-5 pt-20 lg:pt-40 items-center ">
           <div className="col-span-2 order-2 lg:order-1">
-            <Image src={stories_phone} width={450} className="w-50% md:ml-14  rounded-3xl h-[600px] -mb-1" alt="stories phone" />
+            <Image src='/images/stories_phones.jpg' width={450} height={100} className="w-50% md:ml-14  rounded-3xl h-[600px] -mb-1" alt="stories phone" />
           </div>
           <motion.div
             initial={{ scale: 0 }}
