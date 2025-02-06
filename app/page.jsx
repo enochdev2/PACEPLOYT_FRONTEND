@@ -9,7 +9,7 @@ import myInvestments from "../public/images/myInvestments.avif";
 import womanPicture from "../public/images/pexels-ketut-subiyanto-4350099.avif";
 import piggybank from "../public/images/piggybank.avif";
 import securityLock from "../public/images/securitylock.svg";
-import stories_phone from '../public/images/stories_phoness.png';
+import stories_phone from '../public/images/stories_phones.jpg';
 
 // Components Imports
 import { motion } from "framer-motion";
