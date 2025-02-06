@@ -183,7 +183,7 @@ export default function Home() {
 
 
       {/* Meet our saver of the month */}
-      <main className="px-5  md:px-32 lg:px-10 pt-40 bg-gradient-to-tr from-[#bbb9bf] to-[#c8b5f5]">
+      <main className="px-5  md:px-32 lg:px-10 pt-40 bg-gradient-to-tl from-[#bca3f6] to-[#c8b5f5]">
         <div className="text-center mb-20  px-3 lg:px-32">
           <motion.h1 viewport={{ once: true }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="font-bold text-3xl lg:text-5xl mb-5">Meet Our Saver of the Month</motion.h1>
           <motion.p viewport={{ once: true, amount: "all" }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="text-lg lg:text-2xl font-light">Every month, we shine a spotlight on one saver, asking them about their savings culture and how PACEPLOYT has helped them.</motion.p>
