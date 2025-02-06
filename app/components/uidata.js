@@ -18,7 +18,7 @@ import safeLock from "../../public/images/safelock-icon.png"
 import targetIcon from "../../public/images/targets-icon.png"
 import flexNaira from "../../public/images/flex-naira-icon.png"
 import flexDollar from "../../public/images/flex-dollar-icon.png"
-import logo from "../../public/images/pave.jpg"
+import logo from "../../public/images/paves.png"
 import thumb from "../../public/images/thumb.inv68202cdd88.jpg"
 import thumb1 from "../../public/images/thumb.inv470f16e718.png"
 import thumb2 from "../../public/images/thumb.inv88c81f074f.jpg"
@@ -51,41 +51,41 @@ export const buildSavings = [
     //     hovered: false
     // },
     {
-        title: "Fixed Savings",
-        subtitle: "Lock money away for a fixed diration withput having access to it until maturity. It's like having a custom fixed deposit.",
-        arrowText: "safelock",
+        title: "Daily Save",
+        subtitle: "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
+        arrowText: "Daily Save",
         textColor: "rgb(50, 150, 255)",
         backgroundColor: "#2295f2",
         img: fixedSavings,
         hovered: false
     },
     {
-        title: "Goal-oriented Savings",
-        subtitle: "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
-        arrowText: "Pavebank",
-        textColor: "rgb(6, 155, 64)",
-        backgroundColor: "#39c277",
+        title: "Fixed Save (Lock)",
+        subtitle: "Lock money away for a fixed diration withput having access to it until maturity. It's like having a custom fixed deposit.",
+        arrowText: "PaveLock",
+        textColor: "#7913e5",
+        backgroundColor: "#7913e5",
         img: goalOrientedSavings,
         hovered: false
     },
-    {
-        title: "Flex Naira",
-        subtitle: " Save, transfer, manage, organise, and withdraw your money at any time.",
-        arrowText: "flex naira",
-        textColor: "rgb(229, 40, 142)",
-        backgroundColor: "#e5489b",
-        img: flexNaira_phone,
-        hovered: false
-    },
-    {
-        title: "Flex Dollar",
-        subtitle: "Save and grow your money in foreign currencies such as Dollars.",
-        arrowText: "flex dollar",
-        textColor: "rgb(12, 24, 37)",
-        backgroundColor: "#0c1825",
-        img: flexDollar_phone,
-        hovered: false
-    }
+    // {
+    //     title: "Flex Naira",
+    //     subtitle: " Save, transfer, manage, organise, and withdraw your money at any time.",
+    //     arrowText: "flex naira",
+    //     textColor: "rgb(229, 40, 142)",
+    //     backgroundColor: "#e5489b",
+    //     img: flexNaira_phone,
+    //     hovered: false
+    // },
+    // {
+    //     title: "Flex Dollar",
+    //     subtitle: "Save and grow your money in foreign currencies such as Dollars.",
+    //     arrowText: "flex dollar",
+    //     textColor: "rgb(12, 24, 37)",
+    //     backgroundColor: "#0c1825",
+    //     img: flexDollar_phone,
+    //     hovered: false
+    // }
 ]
 
 export const featuredLogos = [
@@ -232,17 +232,17 @@ export const dashboardHome = [
     },
     {
         href: "",
-        text: "Flex Dollar",
+        text: "Daily Save",
         amount: "₦0.00",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"  ><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>,
         bg: "#222222"
     },
     {
         href: "",
-        text: "Flex Naira",
+        text: "Fixed Save (Lock)",
         amount: "₦0.00",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E7439C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"  ><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>,
-        bg: "#fff"
+        bg: "#7913E5"
     },
     {
         href: "",
@@ -291,7 +291,7 @@ export const dashboardSavings = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"  ><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
     },
     {
-        title: "flex naira",
+        title: "Fixed Lock",
         subtitle: "Flexible savings for emergencies. Free transfers, withdrawals etc. 8% p.a",
         amount: "₦0.00",
         bgColor: "rgb(255, 234, 245)",
@@ -299,7 +299,7 @@ export const dashboardSavings = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"  ><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
     },
     {
-        title: "safelock",
+        title: "Daily Lock",
         subtitle: "Lock funds to avoid temptations. Upfront interest. Up to 13% p.a",
         amount: "₦0.00",
         bgColor: "rgb(231, 246, 255)",

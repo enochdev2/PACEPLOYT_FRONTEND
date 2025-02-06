@@ -9,7 +9,7 @@ import womanPicture from "../public/images/pexels-ketut-subiyanto-4350099.avif"
 import piggybank from "../public/images/piggybank.avif"
 import securityLock from "../public/images/securitylock.svg"
 import myInvestments from "../public/images/myInvestments.avif"
-import stories_phone from '../public/images/stories_phone.png'
+import stories_phone from '../public/images/stories_phoness.png'
 
 // Components Imports
 import Navbar from "./components/Navbar";
@@ -32,7 +32,7 @@ export default function Home() {
   }
   return (
     <main 
-    className="bg-[#E8DDFF] "
+    className="bg-gradient-to-tr from-[#bbb9bf] to-[#c8b5f5] "
     // className="bg-[#f2f7f8] "
     >
       <Navbar />
@@ -123,7 +123,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 gap-x-10 items-center">
           <div className=" md:px-28  col-span-2 text-right">
-            <h1 className="font-bold text-3xl  lg:text-4xl leading-snug mb-5">5 ways to build your savings</h1>
+            <h1 className="font-bold text-3xl  lg:text-4xl leading-snug mb-5">2 ways to build your savings</h1>
 
             <motion.p
               initial={{ opacity: 0, scale: 0 }}
@@ -184,7 +184,7 @@ export default function Home() {
 
 
       {/* Meet our saver of the month */}
-      <main className="px-5  md:px-32 lg:px-10 pt-40">
+      <main className="px-5  md:px-32 lg:px-10 pt-40 bg-gradient-to-tr from-[#bbb9bf] to-[#c8b5f5]">
         <div className="text-center mb-20  px-3 lg:px-32">
           <motion.h1 viewport={{ once: true }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="font-bold text-3xl lg:text-5xl mb-5">Meet Our Saver of the Month</motion.h1>
           <motion.p viewport={{ once: true, amount: "all" }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="text-lg lg:text-2xl font-light">Every month, we shine a spotlight on one saver, asking them about their savings culture and how PACEPLOYT has helped them.</motion.p>
@@ -196,7 +196,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-5 pt-20 lg:pt-40 items-center ">
           <div className="col-span-2 order-2 lg:order-1">
-            <Image src={stories_phone} width={0} className="w-100%" alt="stories phone" />
+            <Image src={stories_phone} width={450} className="w-50% md:ml-14  rounded-3xl h-[600px] -mb-1" alt="stories phone" />
           </div>
           <motion.div
             initial={{ scale: 0 }}
