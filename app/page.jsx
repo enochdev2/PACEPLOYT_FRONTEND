@@ -1,24 +1,23 @@
 "use client"
 // Dependencises Imports
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 // Image Imports
-import playStore from "../public/images/google-icon.svg"
-import womanPicture from "../public/images/pexels-ketut-subiyanto-4350099.avif"
-import piggybank from "../public/images/piggybank.avif"
-import securityLock from "../public/images/securitylock.svg"
-import myInvestments from "../public/images/myInvestments.avif"
-import stories_phone from '../public/images/stories_phoness.png'
+import playStore from "../public/images/google-icon.svg";
+import myInvestments from "../public/images/myInvestments.avif";
+import womanPicture from "../public/images/pexels-ketut-subiyanto-4350099.avif";
+import piggybank from "../public/images/piggybank.avif";
+import securityLock from "../public/images/securitylock.svg";
+import stories_phone from '../public/images/stories_phoness.png';
 
 // Components Imports
+import { motion } from "framer-motion";
+import { AiFillApple } from "react-icons/ai";
+import BuildSavings from "./components/BuildSavings";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { buildSavings, featuredLogos, landingPageLogos } from "./components/uidata";
-import BuildSavings from "./components/BuildSavings";
-import { AiFillApple } from "react-icons/ai"
-import Footer from "./components/Footer";
-import Animate from "./components/Animate";
-import { motion } from "framer-motion";
 
 // import { useInView } from "react-intersection-observer";
 export default function Home() {
