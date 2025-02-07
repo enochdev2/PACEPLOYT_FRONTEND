@@ -27,14 +27,14 @@ const Form = () => {
 
             <div className=''>
                 <label className='text-xs font-semibold'>Email or Phone Number</label>
-                <div className='bg-[#edf2f7] p-5 flex mt-3 rounded-md'>
+                <div className='bg-[#edf2f7] p-2 md:p-5 flex mt-3 rounded-md'>
                     <input type="text" className='w-[100%] bg-transparent outline-none' name="email_phonenumber" />
                 </div>
             </div>
 
             <div className=''>
                 <label className='text-xs font-semibold'>Password</label>
-                <div className='bg-[#edf2f7] p-5 flex mt-3 rounded-md'>
+                <div className='bg-[#edf2f7] p-2 md:p-5 flex mt-3 rounded-md'>
                     <input type="password" className='w-[100%] bg-transparent outline-none' name="password" />
                 </div>
             </div>
