@@ -48,11 +48,11 @@ const Account = () => {
                 </Link>
                 <Link href={""} className='border  rounded-global p-5'>
                   <h1 className='text-xl font-semibold'>0</h1>
-                  <p className='text-sm font-light'>PACEPLOYT Points</p>
+                  <p className='text-sm font-light'>PAVE Points</p>
                 </Link>
                 <Link href={""} className='border  rounded-global p-5'>
                   <h1 className='text-xl font-semibold'># Pavelink ID</h1>
-                  <p className='text-sm font-light'>Create a PACEPLOYT-link ID</p>
+                  <p className='text-sm font-light'>Create a PAVE-link ID</p>
                 </Link>
                 <Link href={""} className='border  rounded-global p-5'>
                   <h1 className='text-xl font-semibold'>0</h1>

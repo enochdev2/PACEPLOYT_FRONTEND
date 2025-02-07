@@ -44,7 +44,7 @@ export const buildSavings = [
     // {
     //     title: "Automated Savings",
     //     subtitle: "Build a dedicated savings faster on your terms, automatically or manually.",
-    //     arrowText: "PacePloyt",
+    //     arrowText: "",
     //     textColor: "rgb(0, 51, 153)",
     //     backgroundColor: "#0f60d6",
     //     img: automatedSavings,
@@ -150,7 +150,7 @@ export const footerLinks = [
 export const saveNavs = [
     {
         img: piggybank,
-        title: "PACEPLOYT",
+        title: "PAVE",
         subtitle: "Automated Savings",
         hover: "hover:text-[#0d60d8"
     },
@@ -283,7 +283,7 @@ export const toDoList = [
 
 export const dashboardSavings = [
     {
-        title: "PACEPLOYT",
+        title: "PAVE",
         subtitle: "Strict savings automatically. Daily, weekly or Monthly. 10% p.a",
         amount: "₦0.00",
         bgColor: "rgb(204, 240, 254)",

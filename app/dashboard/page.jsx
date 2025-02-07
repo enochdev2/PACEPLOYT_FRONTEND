@@ -68,7 +68,7 @@ const Home = () => {
               </div>
               <div>
                 <p className='font-bold text-xs mb-1'>See your recent activities</p>
-                <p className='text-xs font-light text-black'>See your most  recent activities  on PACEPLOYT</p>
+                <p className='text-xs font-light text-black'>See your most  recent activities  on PAVE</p>
               </div>
             </Link>
 
@@ -78,7 +78,7 @@ const Home = () => {
               </div>
               <div>
                 <p className='font-bold text-xs mb-1'>Create a safe lock</p>
-                <p className='text-xs font-light text-black'>See your most  recent activities  on PACEPLOYT</p>
+                <p className='text-xs font-light text-black'>See your most  recent activities  on PAVE</p>
               </div>
             </Link>
 
@@ -88,7 +88,7 @@ const Home = () => {
               </div>
               <div>
                 <p className='font-bold text-xs mb-1'>Link your Pocket App</p>
-                <p className='text-xs font-light text-black'>Withdraw from your PACEPLOYT safer & faster 💜</p>
+                <p className='text-xs font-light text-black'>Withdraw from your PAVE safer & faster 💜</p>
               </div>
             </Link>
           </div>

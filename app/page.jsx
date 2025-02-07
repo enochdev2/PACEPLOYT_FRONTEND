@@ -49,7 +49,7 @@ export default function Home() {
             initial={{ translateY: "50%", opacity: 0 }}
             animate={{ translateY: "0%", opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.4 }}
-          >PACEPLOYT helps over 4 million customers achieve their financial goals by helping them save and invest with ease.</motion.p>
+          >PAVE helps over 4 million customers achieve their financial goals by helping them save and invest with ease.</motion.p>
           <div className="flex justify-center lg:justify-normal items-center gap-x-5 my-5">
 
             <Link href={"/signup"} className='flex items-center btn bg-[#122231] text-white normal-case hover:bg-[#122231] '>
@@ -94,7 +94,7 @@ export default function Home() {
               transition={{ duration: 0.3, delay: 1.8 }}
               className="flex items-center absolute justify-center w-[100%] top-[100%]">
 
-              <Image src={piggybank} width={100} quality={100} alt="PACEPLOYT" className="w-[40%] md:w-[30%] absolute " />
+              <Image src={piggybank} width={100} quality={100} alt="PAVE" className="w-[40%] md:w-[30%] absolute " />
             </motion.div>
 
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
             <Image src={securityLock} width={100} alt="securitylock" />
             <div>
               <motion.h1 viewport={{ once: true }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="text-3xl lg:text-2xl font-bold ">Your security is our priority</motion.h1>
-              <p className="my-3 text-lg lg:text-sm">PACEPLOYT uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that your information is comepletely protected from fraud.</p>
+              <p className="my-3 text-lg lg:text-sm">PAVE uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that your information is comepletely protected from fraud.</p>
               <div className="flex gap-x-3">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#122231" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
                 <Link href="/security" className="font-bold">
@@ -128,7 +128,7 @@ export default function Home() {
               initial={{ opacity: 0, scale: 0 }}
               whileInView={{ opacity: 1, scale: 1, transition: { type: "spring" } }}
               viewport={{ amount: "all", once: true }}
-              className="leading-relaxed text-xl  lg:text-xl" >Earn 5%-15% when you save with any of these PACEPLOYT plans.</motion.p>
+              className="leading-relaxed text-xl  lg:text-xl" >Earn 5%-15% when you save with any of these PAVE plans.</motion.p>
           </div>
 
           {
@@ -186,7 +186,7 @@ export default function Home() {
       <main className="px-5  md:px-32 lg:px-10 pt-40 bg-gradient-to-tl from-[#bca3f6] to-[#c8b5f5]">
         <div className="text-center mb-20  px-3 lg:px-32">
           <motion.h1 viewport={{ once: true }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="font-bold text-3xl lg:text-5xl mb-5">Meet Our Saver of the Month</motion.h1>
-          <motion.p viewport={{ once: true, amount: "all" }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="text-lg lg:text-2xl font-light">Every month, we shine a spotlight on one saver, asking them about their savings culture and how PACEPLOYT has helped them.</motion.p>
+          <motion.p viewport={{ once: true, amount: "all" }} transition={{ delay: 0.5, type: "spring" }} variants={fadeUp} initial={"initial"} whileInView={"animate"} className="text-lg lg:text-2xl font-light">Every month, we shine a spotlight on one saver, asking them about their savings culture and how PAVE has helped them.</motion.p>
         </div>
         <div className="flex lg:justify-center">
           <iframe className="w-[100%] lg:w-[50%] h-[400px] rounded-xl" src="https://www.youtube.com/embed/8XzCzC9pFGM?si=iZFqVYUILv6Tefsg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

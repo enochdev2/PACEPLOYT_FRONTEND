@@ -32,7 +32,9 @@ const Navbar = () => {
       {/* Nav For Medium/Laptop screens */}
       <nav
         className={`duration-1000 ${
-          isSticky ? "bg-gradient-to-l from-[#b4a9c9] to-[#c8b5f5] shadow-md lg:py-3" : "bg-transparent lg:py-3"
+          isSticky
+            ? "bg-gradient-to-l from-[#b4a9c9] to-[#c8b5f5] shadow-md lg:py-3"
+            : "bg-transparent lg:py-3"
         }  z-20  lg:px-10 hidden sticky top-0  lg:flex justify-between items-center`}
       >
         <ul className="flex items-center gap-x-20">
@@ -119,21 +121,23 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      
-      
-      
+
       {/* Nav For Mobile */}
-      <nav className="  block lg:hidden  md:py-8 md:px-10 fixed z-10 left-0 w-[100%]  h-[100%] ">
+      <nav className="   block lg:hidden  md:py-8 md:px-10 fixed z-10 left-0 w-[100%]  h-[100%] ">
         <ul
           className={`duration-1000 ${
-            isSticky ? "bg-white shadow-md" : "bg-transparent"
+            isSticky ? "bg-gradient-to-l from-[#b4a9c9] to-[#c8b5f5] shadow-md" : "bg-transparent"
           } flex items-center justify-between px-6 py-1 `}
         >
-          <li>
-            <Link href={"/"}>
+          <Link href={"/"}>
+            <li className="flex justify-center items-center">
               <Image src={Logos} width={70} alt="Pave Logo" />
-            </Link>
-          </li>
+              <p className=" bg-gradient-to-r  from-[#5d18e5] to-[#5317c8] text-transparent bg-clip-text font-extrabold ml-2 text-2xl">
+                {" "}
+                PAVE
+              </p>
+            </li>
+          </Link>
           <li
             onClick={() => setShowNav(!showNav)}
             className="flex flex-col gap-y-2 items-center"

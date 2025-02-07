@@ -32,10 +32,10 @@ const Footer = ({ fadeUp }) => {
             className='px-5  md:px-32 lg:px-10 pb-24 bg-white text-sm font-light'>
             <section className='grid grid-cols-1 lg:grid-cols-3 lg:gap-x-10 '>
                 <div className='col-span-2 grid grid-cols-1 lg:grid-cols-3 gap-10'>
-                    <ul className='flex flex-col gap-y-5'>
+                    <ul className='flex gap-24 md:flex-col md:gap-y-5 '>
                     <li className='flex justify-center items-center'>
                         <Link href={"/"}>
-                            <Image src={Logos} width={80} alt='PACEPLOYT Logo' />
+                            <Image src={Logos} width={50} alt='PAVE Logo' />
                         </Link>
                        <p className='bg-gradient-to-r  from-[rgb(93,24,229)] to-[#5317c8] text-transparent bg-clip-text font-extrabold ml-3 text-2xl'> PAVE</p> 
                     </li>
@@ -79,10 +79,10 @@ const Footer = ({ fadeUp }) => {
                         Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos, Nigeria.
                     </Link>
                     <Link href={""} className='text-right text-sm font-light'>
-                        contact@PACEPLOYT.com
+                        contact@PAVE.com
                     </Link>
                     <Link href={""} className='text-right text-sm font-light'>
-                        +234 700 933 933 933
+                        +234 8148042760  
                     </Link>
                 </div>
             </section>
