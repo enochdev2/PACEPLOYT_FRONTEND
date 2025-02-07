@@ -46,7 +46,7 @@ const Register = () => {
 
               <div className='' key={index}>
                 <label className='text-xs font-semibold'>{input.name} </label>
-                <div className='bg-[#edf2f7] p-5 flex mt-3 rounded-md'>
+                <div className='bg-[#edf2f7] p-2 md:p-5 flex mt-3 rounded-md'>
                   <input type={input.type} className='w-[100%] bg-transparent outline-none placeholder:text-sm' placeholder={index == 4 ? "Referrer Phone or Code" : input.name} />
                 </div>
               </div>
