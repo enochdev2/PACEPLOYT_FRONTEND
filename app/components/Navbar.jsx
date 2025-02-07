@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Nav For Medium/Laptop screens */}
       <nav
         className={`duration-1000 ${
-          isSticky ? "bg-gradient-to-l from-[#b4a9c9] to-[#c8b5f5] shadow-md lg:py-5" : "bg-transparent lg:py-4"
+          isSticky ? "bg-gradient-to-l from-[#b4a9c9] to-[#c8b5f5] shadow-md lg:py-3" : "bg-transparent lg:py-3"
         }  z-20  lg:px-10 hidden sticky top-0  lg:flex justify-between items-center`}
       >
         <ul className="flex items-center gap-x-20">
@@ -119,16 +119,19 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+      
+      
+      
       {/* Nav For Mobile */}
       <nav className="  block lg:hidden  md:py-8 md:px-10 fixed z-10 left-0 w-[100%]  h-[100%] ">
         <ul
           className={`duration-1000 ${
             isSticky ? "bg-white shadow-md" : "bg-transparent"
-          } flex items-center justify-between px-6 py-6 `}
+          } flex items-center justify-between px-6 py-1 `}
         >
           <li>
             <Link href={"/"}>
-              <Image src={Logos} width={150} alt="Pave Logo" />
+              <Image src={Logos} width={70} alt="Pave Logo" />
             </Link>
           </li>
           <li
@@ -176,7 +179,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"/signup"}
+              href={"/auth/login"}
               className="btn btn-outline normal-case hover:text-[#122231] hover:bg-transparent w-[100%] btn-lg "
             >
               Sign in
@@ -184,7 +187,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"/signup"}
+              href={"/auth/register"}
               className="btn btn-neutral normal-case bg-[#122231] text-white w-[100%]  btn-lg"
             >
               Create free account

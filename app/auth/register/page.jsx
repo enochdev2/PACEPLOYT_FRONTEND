@@ -34,7 +34,7 @@ const Register = () => {
   return (
     <>
 
-      <div className='relative z-10 bg-white w-[40%] p-10 rounded-t-3xl rounded-br-3xl'>
+      <div className='relative z-10 bg-white md:w-[40%] p-3 md:p-10 rounded-t-3xl rounded-br-3xl'>
         <div className='text-center mb-10'>
           <h1 className='text-2xl font-bold text-[#083e9e]'>Create a Secure Account
             </h1>
@@ -71,7 +71,7 @@ const Register = () => {
       </div>
       <div className='relative z-10 flex flex-row justify-center items-center gap-y-2'>
       Already have an account?
-        <Link href={"/auth/login"} className='text-white text-xs lg:text-lg ml-3'>
+        <Link href={"/auth/login"} className='text-white text-md font-extrabold lg:text-lg ml-3'>
            Login
         </Link>
 

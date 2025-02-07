@@ -12,9 +12,9 @@ const layout = ({ children }) => {
 
         <main className='bg-[#c4adf8]  flex flex-col justify-center items-center gap-y-10 p-10  z-20'>
                 
-                        <Link href={"/"} className='flex items-center'>
+                        <Link href={"/"} className='flex bg-gray- z-10 px-5 rounded-2xl  text items-center'>
                             <Image src={Logos} width={80} alt='PACEPLOYT Logo' />
-                       <p className='text-white font-extrabold ml-3 text-4xl'> PACEPLOYT</p> 
+                       <p className=' bg-gradient-to-r  from-[#5d18e5] to-[#5317c8] text-transparent bg-clip-text font-extrabold ml-3 text-4xl'> PAVE</p> 
                         </Link>
 
                 {children}
